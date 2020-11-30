@@ -1,0 +1,13 @@
+  .center {
+    margin: auto;
+    height: 800px;
+    text-align: center;
+    width: 53%;
+    /*margin-top: -12%;*/
+    background-color: rgba(0,0,0,0);
+  }
+
+  .svg {
+    margin: 0 auto;
+    padding-top: -100%;
+  }
