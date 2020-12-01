@@ -46,9 +46,9 @@ window.onload = function () {
 
     function progBarGenerator(tot){
         let sal = '';
-        //for(let i=0; i<=tot; i++){
-            sal += '<div class="pb"><div id="progress"></div></div>';
-        //}
+        for(let i=0; i<=tot; i++){
+            sal += `<div class="pb"><div id="progress"></div></div>`;
+        }
         progress.innerHTML = sal;
     }
 
@@ -73,6 +73,9 @@ window.onload = function () {
     function renderImg() {
         if(current != -1){
             img.src= `${IMAGES[current]}`;
+        }else{
+            clearInterval(intervalIMGS);
+            img.src ='./img/end.jpg';
         }
     }
 

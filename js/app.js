@@ -2,6 +2,7 @@
 
 const container = document.querySelector('#container');
 const btnIni = container.querySelector('.btnBegin');
+const btnTXT = container.querySelector('#btn-text');
 
 //style - bg Color
 const body = document.querySelector('.bg');
@@ -10,7 +11,7 @@ body.style.overflow = 'hidden';
 body.style.fontFamily = 'Verdana';
 
 // btn changes
-btnIni.textContent = "Stories";
+btnTXT.textContent = "Stories";
 
 btnIni.addEventListener('mouseout', (event) => {
     btnIni.textContent = 'Stories';

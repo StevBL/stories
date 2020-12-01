@@ -2,12 +2,35 @@
     margin: auto;
     height: 800px;
     text-align: center;
-    width: 53%;
-    /*margin-top: -12%;*/
+    width: 55%;
     background-color: rgba(0,0,0,0);
   }
 
-  .svg {
-    margin: 0 auto;
-    padding-top: -100%;
+  .btnBegin {
+    padding: 0 16px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #272c34;
+    height: 50px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 30%;
+  }
+  
+  .btnBegin:hover, .btnBegin:focus {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
+      0 4px 5px 0 rgba(0, 0, 0, 0.14),
+      0 1px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: grey;
+    color:white;
+  }
+  
+  .btnBegin:active {
+    box-shadow: 0 15px 15px -3px rgba(0, 0, 0, 0.2),
+      0 8px 10px 1px rgba(0, 0, 0, 0.14),
+      0 3px 14px 2px rgba(0, 0, 0, 0.12);
+    background-color: #272c34;
   }
